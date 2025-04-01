@@ -1,0 +1,16 @@
+name = "AnnotatedStringTools"
+uuid = "2452588d-a2c0-4863-8a13-7e47213b61cb"
+version = "0.1.0"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+
+[targets]
+test = ["Test", "Jive"]
+
+[compat]
+julia = "1.11"
+Test = "1.11"
+Jive = "0.2"
